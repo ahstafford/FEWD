@@ -1,0 +1,35 @@
+.jobTitle {
+     font-weight: bold;
+     font-style: italic;
+	}
+
+
+body { 
+     background-color: #fafafa;
+     border-top: solid 5px black;
+     border-bottom: solid 5px black;
+     padding-bottom: 40px;
+     padding-top: 40px;
+     margin-bottom: 25px;
+     margin-top: 25px;
+     font-family: Arial, sans-serif;
+}
+
+header {
+      text-align: center;
+      
+      }
+
+h1 {    
+      text-transform: uppercase;
+      }
+      
+      
+h3 {
+      text-transform: uppercase;
+      }
+ 
+      
+nav {
+     font-weight: bold;
+     }
