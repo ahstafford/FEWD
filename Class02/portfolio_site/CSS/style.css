@@ -1,0 +1,80 @@
+
+body { 
+     background-color: #fafafa;
+     border-top: solid 5px black;
+     border-bottom: solid 5px black;
+     padding-bottom: 40px;
+     padding-top: 40px;
+     margin-bottom: 25px;
+     margin-top: 25px;
+     font-family: Arial, sans-serif;
+}
+
+header {
+      text-align: center;
+      
+      }
+
+footer {
+     padding-top: 15px;
+}
+
+h1 {    
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      }
+
+h2 {
+      font-size: 22px;
+      font-weight: bold;
+}
+      
+h3 {
+      text-transform: uppercase;
+      font-size: 16px;
+      }
+ 
+      
+nav {
+     font-weight: bold;
+     }
+
+p {
+    font-family: Times New Roman, serif;
+    font-size: 20px;
+    }
+
+a {
+    color: black;
+}
+
+a.current {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.jobTitle {
+     font-weight: bold;
+     font-style: italic;
+}
+
+.mainContent {
+     margin-left: 80px;
+     margin-right: 80px;
+}
+
+.textContent {
+     display: inline-block;
+     vertical-align: top;
+     padding-right: 15px;
+     
+}
+
+.imgContent {
+     display: inline-block;
+}
+
+img.profile {
+      padding: 2px;
+      border: solid 1px black;
+      }
