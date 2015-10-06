@@ -1,4 +1,4 @@
-/*
+﻿/*
 Project Name: Blank Template
 Client: Your Client
 Author: Your Name
@@ -69,7 +69,7 @@ h2 {
     font-size: 24px;
     padding-top: 60px;
     padding-bottom: 40px;
-    margin-left: 30%;
+    margin-left: 40%;
 }
 
 /******************************************
@@ -80,14 +80,13 @@ h2 {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
 
 }
 
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
-  height: 700px;
+  height: 650px;
 }
 
 footer {
@@ -105,13 +104,17 @@ footer {
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
   color: #033048;
-  margin-left: 40%;
+  margin-left: 45%;
   font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 14px;
 
 }
 
+.benefits {
+  background-color: #f0efef;
+  height: 650px;
+}
 
 
 
