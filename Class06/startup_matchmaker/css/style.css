@@ -1,0 +1,151 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+h1 {
+     color: #F7F106;
+     font-family: 'Merriweather', serif;
+     font-weight: 700;
+     font-size: 30px;
+     margin-top: 0;
+     padding-top: 15px;
+
+}
+
+h2 {
+     font-family: 'Merriweather', serif;
+     font-weight: 700;
+     font-style: italic;
+     font-size: 24px;
+     padding: 20px 20px 10px 20px;
+     margin-top: 0;
+
+}
+
+h3 {
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 700;
+     font-size: 20px;
+
+}
+
+h4 {
+
+}
+
+body {
+     color: #000000;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 1.4;
+     font-family: 'Source Sans Pro', sans-serif;  
+}
+
+header{
+     margin-top: 0;
+     background-color: #000000;
+     border-bottom: solid 3px #F7F106;
+     overflow: auto;
+}
+
+footer {
+      clear: both;
+      background-color: #000000;
+      color: #FFFFFF;
+
+}
+
+nav {
+     color:#FFFFFF;
+     float: right;
+}
+
+nav li {
+     display: inline;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     padding: 5px;
+}
+
+.bold {
+     display: inline;
+     font-family: 'Oswald', sans-serif;
+     font-weight: 700;
+     font-size: 16px;
+     padding: 5px;
+     text-transform: uppercase;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.container {
+     width: 800px;
+     margin: 0 auto;
+     overflow: auto;
+}
+
+.tag {
+     clear: both;
+     background-color: #A7A7A7;
+     text-align: center;
+}
+
+.match {
+     background: url(../images/coworking.jpg) no-repeat center;
+     height: 550px;
+     margin-top: 0px;
+     overflow: auto;
+     margin-bottom: 10px;
+
+}
+
+.box {
+     background-color: rgba(245,245,245,0.8);
+     float: right;
+     padding: 0px 25px;
+     width: 250px;
+     height: 300px;
+     border: solid 1px black;
+     margin: 10px;
+}
+
+.area{
+     width: 33.3%;
+     float: left;
+     padding: 10px;
+}
+
+.areaDeveloper {
+     width: 33.3%;
+     float: left;
+     border-right: 1px solid gray;
+     border-left: 1px solid gray;
+     padding: 10px;
+}

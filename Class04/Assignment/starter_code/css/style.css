@@ -141,7 +141,7 @@ footer {
   border-radius: 5px;
   border: solid 1px #f9e42e;
   color: #033048;
-  margin-left: 40%;
+  margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 14px;
@@ -192,7 +192,7 @@ footer {
   border-radius: 5px;
   border: solid 1px #033048;
   color: white;
-  margin-left: 40%;
+  margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 12px;
