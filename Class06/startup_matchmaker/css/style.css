@@ -55,7 +55,11 @@ h3 {
 }
 
 h4 {
-
+     font-family: 'Merriweather', serif;
+     font-weight: 700;
+     font-size: 20px;
+     overflow: auto;
+     margin-bottom: 2px;
 }
 
 body {
@@ -77,6 +81,8 @@ footer {
       clear: both;
       background-color: #000000;
       color: #FFFFFF;
+      height: 60px;
+      padding: 15px;
 
 }
 
@@ -106,7 +112,7 @@ nav li {
 /*******************************************/
 
 .container {
-     width: 800px;
+     width: 700px;
      margin: 0 auto;
      overflow: auto;
 }
@@ -118,9 +124,10 @@ nav li {
 }
 
 .match {
-     background: url(../images/coworking.jpg) no-repeat center;
+     background: url(../images/coworking.jpg) no-repeat left center;
+     width: 700px;
      height: 550px;
-     margin-top: 0px;
+     margin: 0 auto;
      overflow: auto;
      margin-bottom: 10px;
 
@@ -139,13 +146,55 @@ nav li {
 .area{
      width: 33.3%;
      float: left;
-     padding: 10px;
+     padding: 0px 15px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     margin-bottom: 40px;
 }
 
 .areaDeveloper {
      width: 33.3%;
      float: left;
-     border-right: 1px solid gray;
-     border-left: 1px solid gray;
-     padding: 10px;
+     border-right: 1px solid #DADADA;
+     border-left: 1px solid #DADADA;
+     padding: 0px 15px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     margin-bottom: 40px;
+}
+
+.areaContent {
+     margin-bottom: 20px;
+}
+
+.button {
+  background: #C5C5C5;
+  width: 180px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  color: black;
+  margin: 0 auto;
+  box-shadow: 1px 2px #DADADA;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+     font-weight: 700;
+     font-size: 16px;
+}
+
+.yellow {
+  background: #F7F106;
+  box-shadow: 1px 2px #CAC425;
+}
+
+.strike {
+ text-decoration: line-through;
+ color: #C5C5C5;
+
+}
+
+.yellowUnderline {
+ border-bottom: 3px solid #F7F106;
 }
