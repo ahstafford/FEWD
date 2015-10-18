@@ -220,6 +220,10 @@ footer {
 		font-size: 2.5em;
 	}
 
+	.mobile-only {
+		display: none;
+	}
+
 /*
 	.hamburger {
 	  width: 60px;
