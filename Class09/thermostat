@@ -1,0 +1,8 @@
+target_temperature = 72
+current_temperature = get_current_temperature
+
+repeat
+	if current_temperature < target_temperature - 5
+		turn_heater_on
+	if current_temperature >= target_temperature
+		turn_heater_off

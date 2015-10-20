@@ -1,0 +1,17 @@
+choose_hand can be rock, paper, or scissors
+
+rock > scissors
+paper > rock
+scissors > paper
+
+user 1 = choose_hand
+user 2 = choose_hand
+
+user 1 plays = store play value.
+user 2 plays = store play value. 
+
+if play by user 1 is greater than play by user 2, user 1 wins game.
+
+if play by user 2 is greater than play by user 1, user 2 wins game. 
+
+if play by user 1 is equal to play by user 2, restart. 
