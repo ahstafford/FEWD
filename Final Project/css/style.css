@@ -38,14 +38,89 @@
 /*******************************************/
 body {
   color: #000;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
 }
+
+h1 {
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  padding-top: 2%;
+}
+
+h3 {
+  margin-top: 0;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  padding-top: 6%;
+}
+
+h4 {
+  margin-top: 0;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  padding-top: 2%;
+}
+
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+header nav {
+  float: right;
+  width: 40%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 1%;
+}
+
+nav {
+  display: inline-block;
+}
+
+header nav ul li {
+  margin: 0 0 0 40px;
+  display: inline-block;
+  color: #FFFFFF;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 40px;
+  height: 100px;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  padding: 2%;
+}
+
+.center {
+  text-align: center;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -53,3 +128,62 @@ body {
 .hidden {
      display: none;
 }
+
+.title {
+  float: left;
+  width: 60%;
+  display: inline-block;
+  padding-left: 2%;
+}
+
+.hero {
+  height: 600px;
+  background: url(../images/coffeeComputer.jpg) no-repeat center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.overlay {
+  margin: auto;
+  position: absolute;
+  left:0;
+  right:0;
+  top:-120px;
+  bottom: 0;
+  height: 280px;
+  background-color: rgba(20,20,20,.6);
+}
+
+#learnMoreText {
+  color: #FFFFFF;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.thirds {
+  display: inline-block;
+  width: 31%;
+  vertical-align: top;
+  padding: 0 10px;
+}
+
+.headerFooterBackground {
+  background-color: #A00A0A;
+}
+
+.button {
+  border-radius: 35px;
+  border: none;
+  font-weight: 600;
+  padding: 1.3% 0;
+  width: 20%;
+  font-size: 22px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #D4D4D4;
+}
+
+.button:hover {
+  background-color: #FFFFFF;
+};
