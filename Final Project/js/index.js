@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+	//Event to list for button click to show text
 	$('#learnMoreButton').click(showText);
 
 	//funtion to show hidden text
@@ -6,4 +8,7 @@ $(document).ready(function(){
 		$('#learnMoreText').show('slow');
 		$('#learnMoreButton').hide();
 	}
+
+	//Load event to animate border
+	$('.before').addClass('after');
 });

@@ -186,4 +186,17 @@ footer {
 
 .button:hover {
   background-color: #FFFFFF;
-};
+}
+
+.after {
+  width: 100% !important;
+  background-color: #FFFFFF !important;
+}
+
+.before {
+  background-color: transparent;
+  width: 0px;
+  height: 3px;
+  display: block;
+  transition: 4s linear;
+}
