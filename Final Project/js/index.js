@@ -10,5 +10,5 @@ $(document).ready(function(){
 	}
 
 	//Load event to animate border
-	$('.before').addClass('after');
+	$('.lineGrowBefore').addClass('lineGrowAfter');
 });
