@@ -66,7 +66,6 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 28px;
-  padding-top: 6%;
 }
 
 h4 {
@@ -96,6 +95,11 @@ nav ul li a {
 nav ul li a:hover {
   color: #C0C0C0;
   font-weight: inherit;
+}
+
+.title a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 
@@ -136,7 +140,6 @@ header nav ul li {
 
 footer {
   margin-top: 40px;
-  height: 100px;
   color: #FFFFFF;
   font-size: 16px;
   line-height: 1.4;
@@ -163,12 +166,31 @@ footer {
   padding-left: 2%;
 }
 
-.hero {
+.heroMain {
   height: 650px;
   background: url(../images/coffeeComputer.jpg) no-repeat center;
   background-size: cover;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 2%;
+}
+
+.heroServices {
+  height: 650px;
+  background: url(../images/computer.jpg) no-repeat center;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 2%;
+}
+
+.heroClients {
+  height: 650px;
+  background: url(../images/businessMan.jpg) no-repeat center;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 2%;
 }
 
 .overlay {
@@ -191,7 +213,7 @@ footer {
 
 .thirds {
   display: inline-block;
-  width: 31%;
+  width: 32%;
   vertical-align: top;
   padding: 0 10px;
 }
@@ -226,5 +248,18 @@ footer {
   width: 0px;
   height: 3px;
   display: block;
-  transition: 4s linear;
+  transition: 3s linear;
+}
+
+.socialIcons img {
+  padding-right: 1%;
+}
+
+.serviceTabs h3 {
+  cursor: pointer;
+  padding: 1%;
+}
+
+.serviceTabs div {
+  margin-bottom: 2%;
 }
