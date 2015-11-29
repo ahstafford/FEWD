@@ -153,6 +153,56 @@ footer {
 }
 
 /******************************************
+/* FORM STYLES
+/*******************************************/
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.formSection {
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: #F3F3F3;
+  border-radius: 3px;
+  box-shadow: none;
+  border: 1px solid #CCC;
+  padding-left: .5%;
+}
+
+textarea {
+  background-color: #F3F3F3;
+}
+
+input[name="first_name"]{
+  margin-right: 2%;
+}
+
+.align {
+  display: inline-block;
+}
+
+.formButton {
+  border-radius: 25px;
+  border: none;
+  font-weight: 600;
+  padding: 1% 0;
+  width: 10%;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #D4D4D4;
+}
+
+label {
+  padding-right: 1%;
+}
+
+/******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 .hidden {
@@ -166,31 +216,36 @@ footer {
   padding-left: 2%;
 }
 
-.heroMain {
+.hero {
   height: 650px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 2%;
+}
+
+.main {
   background: url(../images/coffeeComputer.jpg) no-repeat center;
   background-size: cover;
-  margin: 0 auto;
-  position: relative;
-  margin-bottom: 2%;
 }
 
-.heroServices {
-  height: 650px;
+.services {
   background: url(../images/computer.jpg) no-repeat center;
   background-size: cover;
-  margin: 0 auto;
-  position: relative;
-  margin-bottom: 2%;
 }
 
-.heroClients {
-  height: 650px;
+.clients {
   background: url(../images/businessMan.jpg) no-repeat center;
   background-size: cover;
-  margin: 0 auto;
-  position: relative;
-  margin-bottom: 2%;
+}
+
+.meeting {
+  background: url(../images/meeting.jpg) no-repeat top;
+  background-size: cover;
+}
+
+.contact {
+  background: url(../images/telephone.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 .overlay {

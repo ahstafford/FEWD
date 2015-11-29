@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Course Application</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<header>
+			<h1>Course Application</h1>
+		</header>
+
+		<div class="container">
+			<form method="post" action="#" enctype="multipart/form-data">
+			<h2>Your Contact Info</h2>
+			<fieldset>
+			   <legend>Your Name</legend>
+			   <input type="text" name="first_name" placeholder="First">
+			   <input type="text" name="last_name" placeholder="Last">
+			</fieldset>
+
+			<fieldset>
+			   <legend>Phone Number</legend>
+				   <input type="text" name="area code" maxlength="3" size="3"> &ndash; 
+				   <input type="text" name="first three" maxlength="3" size="3"> &ndash; 
+				   <input type="text" name="last four" maxlength="4" size="4">
+			</fieldset>
+
+			<fieldset>
+			   <legend>Address</legend>
+			   		<div class="fieldWrapper">
+				   		<input type="text" name="Address Line 1" placeholder="Street Address">
+				   		<input type="text" name="Address Line 2" placeholder="Address Line 2">
+				   		<input type="text" name="city" placeholder="City">
+				   		<input type="text" name="state" placeholder="State">
+				  		 <input type="text" name="zip" placeholder="Postal Code">  
+			  		</div>
+			</fieldset>
+			<h2>Skills and Interests</h2>
+			<div class="section">
+				<label>Course <select name="course"></label>
+					<option value="SelectOne">Select One</option>
+					<optgroup label="Web Development">
+						<option value="Front-end">Front-end</option>
+						<option value="Back-end">Back-end</option>
+					<optgroup label="Design">
+						<option value="Visual Design">Visual Design</option>
+						<option value="User Experience">User Experience</option>
+				</select>
+			</div>
+			<div class="section">
+				<label>Past Experience <textarea name="experience" rows="10" cols="50"> </textarea></label>
+			</div>
+
+			<h2>Anything Else</h2>
+			<div class="section">
+				<label>Referral <select name="referral"></label>
+				<option value="None">None</option>
+				<option value="Friend">Friend</option>
+				<option value="Instructor">Instructor</option>
+				<option value="Online">Online</option>
+				</select>
+			</div>
+			<div class="section">
+				<label>Comments <textarea name="experience" rows="10" cols="50"> </textarea></label>
+				</form>
+			</div>
+			<button value="save">Save Draft</button>
+			<input type="submit" value="Submit">
+		</div>
+	</body>
+</html>
